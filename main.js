@@ -1,1 +1,1 @@
-console.log("main.js is working")
+fetch("http://localhost:3000/Adventures").then(response => response.json()).then(json => console.log(json))
