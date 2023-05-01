@@ -1,4 +1,5 @@
-[
+{
+    "Adventures": [
     {
         "id": 1,
         "name": "Forest",
@@ -41,4 +42,4 @@
         "gear": "Hiking shoes, compass, first-aid kit",
         "reservations": 0
     }
-]
+]}
