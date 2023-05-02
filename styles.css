@@ -44,25 +44,28 @@ h1, h2, h3, h4 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    }
+}
     
-    .adventure-grid {
+.adventure-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 20px;
     row-gap: 20px;
-    }
+}
     
-    .adventure-image-wrapper {
+.adventure-image-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
-    }
+}
     
-    .adventure-image {
+.adventure-image {
     width: 250px;
     height: auto;
-    }
+    border-radius: 5px;
+    box-shadow: 0 4px 6px 0 rgba(34, 60, 80, .16);
+	transition: all ease-in-out .2s;
+}
 
 .adventure-image:hover {
 	filter: brightness(.75);
@@ -73,12 +76,12 @@ h1, h2, h3, h4 {
 	visibility: visible;
 }
 
-.adventure-image-wrapper > h4 {
+.adventure-image-wrapper > h3 {
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	color: white;
+	color: #E6E2C3;
 	visibility: hidden;
 	z-index: 2;
 	transition: all ease-in-out .2s;
