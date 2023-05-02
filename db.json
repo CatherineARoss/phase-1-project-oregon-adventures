@@ -3,42 +3,42 @@
     {
         "id": 1,
         "name": "Forest",
-        "image": "",
+        "description": "",
         "gear": "Tent, sleeping bag, dry wood, matches",
         "reservations": 0
     },
     {
         "id": 2,
         "name": "River",
-        "image": "",
+        "description": "",
         "gear": "River sandles, swimsuit, kayak & paddles, life vest",
         "reservations": 0
     },
     {
         "id": 3,
         "name": "Snow",
-        "image": "",
+        "description": "",
         "gear": "Puffy jacket, beanie, hand warmers, snowshoes",
         "reservations": 0
     },
     {
         "id": 4,
         "name": "Desert",
-        "image": "",
+        "description": "",
         "gear": "Sunscreen, hat, extra water",
         "reservations": 0
     },
     {
         "id": 5,
         "name": "Beach",
-        "image": "",
+        "description": "",
         "gear": "Sunscreen, towel, beach blanket",
         "reservations": 0
     },
     {
         "id": 6,
         "name": "Waterfall",
-        "image": "",
+        "description": "",
         "gear": "Hiking shoes, compass, first-aid kit",
         "reservations": 0
     }
