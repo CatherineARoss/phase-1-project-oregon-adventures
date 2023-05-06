@@ -22,14 +22,14 @@ fetch('http://localhost:3000/adventures')
     })
   });
 
-let emailElement = document.querySelector('#email');
-let messageElement = document.querySelector('#message');
-let submitButton = document.querySelector('#submit-button');
+const emailElement = document.querySelector('#email');
+const messageElement = document.querySelector('#message');
+const submitButton = document.querySelector('#submit-button');
 submitButton.addEventListener('click', function(e) {
 	e.preventDefault();
 
-	let emailValue = emailElement.value;
-	let messageValue = messageElement.value;
+	const emailValue = emailElement.value;
+	const messageValue = messageElement.value;
 
 	console.log('Email: ', emailValue);
 	console.log('Message: ', messageValue);
@@ -41,3 +41,12 @@ submitButton.addEventListener('click', function(e) {
 		alert('Please enter a valid email address.');
 	}
 })
+
+const participantsInput = document.querySelector('.participants');
+const bookNowButton = document.querySelector('.book-now');
+
+bookNowButton.addEventListener('click', function() {
+  const numberOfParticipants = participantsInput.value;
+  console.log(`Booking for ${numberOfParticipants} participants`);
+  
+});
