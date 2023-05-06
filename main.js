@@ -22,6 +22,18 @@ fetch('http://localhost:3000/adventures')
     })
   });
 
+  const participantsInput = document.querySelector('.participants');
+  const bookNowButton = document.querySelector('.book-now');
+  
+  bookNowButton.addEventListener('click', function(e) {
+    e.preventDefault();
+  
+    const numberOfParticipants = participantsInput.value;
+    if(participantsInput.value) {
+    alert(`Booking for ${numberOfParticipants} participants`);
+    }
+  });
+
 const emailElement = document.querySelector('#email');
 const messageElement = document.querySelector('#message');
 const submitButton = document.querySelector('#submit-button');
@@ -35,18 +47,9 @@ submitButton.addEventListener('click', function(e) {
 	console.log('Message: ', messageValue);
 
 	if(emailValue.includes('@')) {
-		// all good
 		alert('Thank You');
 	} else {
 		alert('Please enter a valid email address.');
 	}
-})
-
-const participantsInput = document.querySelector('.participants');
-const bookNowButton = document.querySelector('.book-now');
-
-bookNowButton.addEventListener('click', function() {
-  const numberOfParticipants = participantsInput.value;
-  console.log(`Booking for ${numberOfParticipants} participants`);
-  
 });
+
