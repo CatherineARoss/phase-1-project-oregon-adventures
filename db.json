@@ -2,44 +2,44 @@
     "adventures": [
     {
         "id": 1,
-        "name": "Camping",
+        "name": "Camp at Timberline",
         "description": "Oregon’s trails are ready when you are, whether you want to camp in one of our beautiful State Parks or backpack to a remote location.",
-        "gear": "Tent, sleeping bag, dry wood, matches",
+        "gear": "Gear: Tent, sleeping bag, dry wood, matches",
         "reservations": 0
     },
     {
         "id": 2,
-        "name": "Kayaking",
+        "name": "Kayak the Sandy River",
         "description": "Oregon is home to calm and clear alpine ponds perfect for gentle paddles, and Class III and IV rapids ideal for thrilling whitewater adventures. So grab a paddle and join us on the water.",
-        "gear": "River sandals, swimsuit, kayak & paddles, life vest",
+        "gear": "Gear: River sandals, swimsuit, kayak & paddles, life vest",
         "reservations": 0
     },
     {
         "id": 3,
-        "name": "Snowshoe",
+        "name": "Snowshoe Mt Hood",
         "description": "Choose your own pace through beautiful tree-lined corridors and around sparkling blue lakes. We'll bring the hot chocolate.",
-        "gear": "Puffy jacket, beanie, hand warmers, snowshoes",
+        "gear": "Gear: Puffy jacket, beanie, hand warmers, snowshoes",
         "reservations": 0
     },
     {
         "id": 4,
-        "name": "Desert",
+        "name": "Alvord Desert",
         "description": "From the snow-capped Steens Mountain to the steamy hot springs to the sun-dried, cracked desert floor, you have to comve check out Alvord Desert!",
-        "gear": "Sunscreen, hat, extra water",
+        "gear": "Gear: Sunscreen, hat, extra water",
         "reservations": 0
     },
     {
         "id": 5,
-        "name": "Beach",
+        "name": "Cannon Beach",
         "description": "363 miles of stunning public coastline dotted with lighthouses, fishing villages and dramatic scenery. Your thoughts will fade away along this wind-swept shoreline.",
-        "gear": "Sunscreen, towel, beach blanket",
+        "gear": "Gear: Sunscreen, towel, beach blanket",
         "reservations": 0
     },
     {
         "id": 6,
-        "name": "Waterfall",
+        "name": "Tamanawas Waterfall",
         "description": "We have more than our fair share of waterfalls, hundreds actually, many of which are taller than skyscrapers and last year-round. With so many amazing waterfalls, we just can’t help but go chasing them.",
-        "gear": "Hiking shoes, compass, first-aid kit",
+        "gear": "Gear: Hiking shoes, compass, first-aid kit",
         "reservations": 0
     }
 ]}

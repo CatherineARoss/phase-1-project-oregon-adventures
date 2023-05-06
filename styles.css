@@ -3,8 +3,21 @@ body {
 	background: #FFF3E2;
 }
 
-h1, h2, h3, h4 {
+h1, h3, h4 {
 	font-family: 'Leelawadee UI';
+    text-align: center;
+    color: #88A47C;
+}
+
+h2 {
+    font-family: 'Leelawadee UI';
+    counter-reset: #227C70;
+    position: absolute;
+}
+
+p {
+    font-family: 'Leelawadee';
+    display: inline;
     text-align: center;
     color: #88A47C;
 }
@@ -65,15 +78,16 @@ h1, h2, h3, h4 {
     justify-self: center;
 	padding: 4%;
 	position: relative;
+    border-radius: 5px;
+    border: 3px solid #227C70;
+    padding: 20px 20px 50px 20px;
 }
     
 .adventure-image {
     max-width: 300px;
     height: auto;
     border-radius: 5px;
-    border: 3px solid #227C70;
-    padding: 20px 20px 150px 20px;
-   position: relative;
+    position: relative;
 }
 
 .book-now {
@@ -91,13 +105,13 @@ h1, h2, h3, h4 {
 	box-shadow: 0 8px 12 px 0 rgba(34, 60, 80, .16);
 }
 
-.adventure-image-wrapper:hover > h3 {
+.adventure-image-wrapper:hover > h2 {
 	visibility: visible;
 }
 
-.adventure-image-wrapper > h3 {
+.adventure-image-wrapper > h2 {
 	position: absolute;
-	top: 50%;
+	top: 25%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	color: white;
