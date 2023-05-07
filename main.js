@@ -22,17 +22,18 @@ fetch('http://localhost:3000/adventures')
     })
   });
 
-  const participantsInput = document.querySelector('.participants');
-  const bookNowButton = document.querySelector('.book-now');
-  
-  bookNowButton.addEventListener('click', function(e) {
-    e.preventDefault();
-  
-    const numberOfParticipants = participantsInput.value;
-    if(numberOfParticipants > 0 && numberOfParticipants <= 10) {
-      alert(`Booking for \${numberOfParticipants} participants, an confirmation Email will be sent to you.`);
-    } else if (numberOfParticipants > 10) {
-      alert(`Fully Booked`);
+  const bookNowButtons = document.querySelectorAll('.book-now');
+
+  document.addEventListener('click', function(e) {
+    if (e.target.classList.contains('book-now')) {
+      e.preventDefault();
+      const participantsInput = e.target.parentElement.querySelector('.participants');
+      const numberOfParticipants = participantsInput.value;
+      if (numberOfParticipants > 0 && numberOfParticipants <= 10) {
+        alert(`Booking for ${numberOfParticipants} participants, a confirmation Email will be sent to you.`);
+      } else if (numberOfParticipants > 10) {
+        alert(`Fully Booked: Max is 10 participants`);
+      }
     }
   });
 
