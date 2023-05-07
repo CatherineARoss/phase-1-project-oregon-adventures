@@ -24,20 +24,20 @@
     {
         "id": 4,
         "name": "Alvord Desert",
-        "description": "From the snow-capped Steens Mountain to the steamy hot springs to the sun-dried, cracked desert floor, you have to comve check out Alvord Desert!",
+        "description": "From the snow-capped Steens Mountain to the steamy hot springs to the sun-dried, cracked desert floor, you have to comve check out this desert oasis!",
         "gear": "Gear: Sunscreen, hat, extra water",
         "reservations": 0
     },
     {
         "id": 5,
-        "name": "Cannon Beach",
+        "name": "The Coast",
         "description": "363 miles of stunning public coastline dotted with lighthouses, fishing villages and dramatic scenery. Your thoughts will fade away along this wind-swept shoreline.",
         "gear": "Gear: Sunscreen, towel, beach blanket",
         "reservations": 0
     },
     {
         "id": 6,
-        "name": "Tamanawas Waterfall",
+        "name": "Waterfalls",
         "description": "We have more than our fair share of waterfalls, hundreds actually, many of which are taller than skyscrapers and last year-round. With so many amazing waterfalls, we just can’t help but go chasing them.",
         "gear": "Gear: Hiking shoes, compass, first-aid kit",
         "reservations": 0

@@ -22,7 +22,7 @@ fetch('http://localhost:3000/adventures')
     })
   });
 
-  
+
   const bookNowButtons = document.querySelectorAll('.book-now');
 
   document.addEventListener('click', function(e) {
@@ -57,4 +57,7 @@ submitButton.addEventListener('click', function(e) {
 		alert('Please enter a valid email address.');
 	}
 });
+
+
+
 
