@@ -59,5 +59,16 @@ submitButton.addEventListener('click', function(e) {
 });
 
 
+const gallery = document.querySelector('.gallery');
+const image = gallery.querySelector('.gallery-image');
 
+image.addEventListener('mouseover', function() {
+  // Do something when mouse is over the image
+  image.style.opacity = '0.5';
+});
+
+image.addEventListener('mouseout', function() {
+  // Do something when mouse is not over the image
+  image.style.opacity = '1';
+});
 
