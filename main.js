@@ -29,8 +29,10 @@ fetch('http://localhost:3000/adventures')
     e.preventDefault();
   
     const numberOfParticipants = participantsInput.value;
-    if(participantsInput.value) {
-    alert(`Booking for ${numberOfParticipants} participants`);
+    if(numberOfParticipants > 0 && numberOfParticipants <= 10) {
+      alert(`Booking for \${numberOfParticipants} participants`);
+    } else if (numberOfParticipants > 10) {
+      alert(`Fully Booked`);
     }
   });
 
