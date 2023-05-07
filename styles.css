@@ -20,6 +20,7 @@ p {
     display: inline;
     text-align: center;
     color: #88A47C;
+    margin-top: -5px;
 }
 
 .header-image {

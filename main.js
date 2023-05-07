@@ -22,6 +22,7 @@ fetch('http://localhost:3000/adventures')
     })
   });
 
+  
   const bookNowButtons = document.querySelectorAll('.book-now');
 
   document.addEventListener('click', function(e) {
@@ -36,6 +37,7 @@ fetch('http://localhost:3000/adventures')
       }
     }
   });
+
 
 const emailElement = document.querySelector('#email');
 const messageElement = document.querySelector('#message');
