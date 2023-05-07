@@ -1,5 +1,12 @@
 # Oregon Adventures
 
+## Installation
+```javascript
+$ git clone https://github.com/CatherineARoss/phase-1-project-oregon-adventures
+
+cd phase-1-project-oregon-adventures
+```
+
 ## Usage
 It is an app to view and book different adventure packages in Oregon. Users can scroll up and down to view the packages that have a description and the gear they should bring for the trip.
 
@@ -15,3 +22,6 @@ Catherine Ross
 
 ## Image Source
 All images were photographed by Stosh Modrow of Rogue Wolf Photography. 
+
+## Video
+https://www.youtube.com/watch?v=t-q4ro1H5u4
